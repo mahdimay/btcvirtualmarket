@@ -9,7 +9,7 @@ if (isset($_POST['user']) and isset($_POST['pass'])){
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 $amount = $_POST['amount'];
- $link = mysqli_connect("localhost", "linuper_linuper", "ZoMoRoDe8182", "linuper_test");
+ $link = mysqli_connect("localhost", "dbuser", "dbpass", "dbname");
  
 $result = $link->query("SELECT user FROM users2 WHERE user = '$user'");
 if($result->num_rows == 0) {
