@@ -9,11 +9,11 @@ if (isset($_POST['user']) and isset($_POST['pass'])){
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 $amount = $_POST['amount'];
- $link = mysqli_connect("localhost", "dbusername", "dbpassword", "dbname");
+ $link = mysqli_connect("localhost", "linuper_linuper", "ZoMoRoDe8182", "linuper_test");
  
 $result = $link->query("SELECT user FROM users2 WHERE user = '$user'");
 if($result->num_rows == 0) {
-    echo "Data entered for order is wrong. Try again.";
+    echo "Username or password is wrong. Try again.";
   
 } elseif ($result->num_rows == 1){
     $userpass = $link->query("SELECT pass FROM users2 WHERE user = '$user'");
