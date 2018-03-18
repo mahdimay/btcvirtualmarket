@@ -1,8 +1,8 @@
 <?PHP
 $servername = "localhost";
-$username = "megac140_megac14";
-$password = "ZoMoRoDe8182";
-$dbname = "megac140_cmcap";
+$username = "btcvi";
+$password = "pass";
+$dbname = "btcvi";
 $link = mysqli_connect("localhost", "megac140_megac14", "ZoMoRoDe8182", "megac140_cmcap");
 $file = $_SERVER['SCRIPT_NAME'];
 if ($file == "trade.php"){
