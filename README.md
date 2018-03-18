@@ -12,6 +12,7 @@ btcvirtualmarket is a very simple Bitcoin Virtual Market that allows user to tes
 <p>- Allowing users check their rank in a game</p>
 <p>- Allowing users to see a quick statistic of bitcoin in the dashboard</p>
 <p>- Allowing users to check the bitcoin chart and predict the price</p>
+<p>- Allowing users to chat with each other</p>
 </pre>
 
 
