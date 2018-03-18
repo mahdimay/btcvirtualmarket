@@ -1,9 +1,9 @@
 <?PHP
 $servername = "localhost";
-$username = "btcvi";
+$username = "btcvi_usern";
 $password = "pass";
-$dbname = "btcvi";
-$link = mysqli_connect("localhost", "megac140_megac14", "ZoMoRoDe8182", "megac140_cmcap");
+$dbname = "btcvi_dbn";
+$link = mysqli_connect("localhost", "btcvi_usern", "pass", "btcvi_dbn");
 $file = $_SERVER['SCRIPT_NAME'];
 if ($file == "trade.php"){
     $trade = "active";
